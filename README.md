@@ -12,4 +12,13 @@ https://www.win-rar.com/download.html?&L=0
 3-<img width="605" alt="2" src="https://github.com/user-attachments/assets/7238f635-5a92-406b-a2c9-dce74f838aaa" />
 
 4-<img width="465" alt="3" src="https://github.com/user-attachments/assets/62d995c9-8842-49a0-b517-a3d315d52e65" />
-ترعريف كرت شاشة يكون من windows updates
+
+
+
+
+
+
+
+
+
+تعريف كرت شاشة يكون منwindows updates

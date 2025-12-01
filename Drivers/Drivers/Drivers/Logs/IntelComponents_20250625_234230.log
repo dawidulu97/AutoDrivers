@@ -1,0 +1,199 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250625234247
+Username: DESKTOP-KCA2QFV\Owner
+RunAs User: DESKTOP-KCA2QFV\Owner
+Configuration Name: 
+Machine: DESKTOP-KCA2QFV (Microsoft Windows NT 10.0.21996.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoExit -WindowStyle Hidden -Command Start-Transcript -Path 'C:\Drivers\Drivers\Logs\IntelComponents_20250625_234230.log'; . 'C:\Drivers\Drivers\autoinstall-intel.ps1'; Stop-Transcript
+Process ID: 9948
+PSVersion: 5.1.21996.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.21996.1
+BuildVersion: 10.0.21996.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Drivers\Drivers\Logs\IntelComponents_20250625_234230.log
+Run As Admin -- OK
+Detected Comet Lake
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INT34C8\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:45 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INT34C8\0" 2>$NULL){
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INT34C5\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:49 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INT34C5\0" 2>$NULL){
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1055\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:53 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1055\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1056\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:57 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1056\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1057\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:61 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1057\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1085\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:65 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1085\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1083\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:69 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1083\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+
+
+    Directory: C:\Windows\system32
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/25/2025  11:42 PM                CBookDriversTmp
+Downloading Comet Lake LPSS drivers
+Downloading Comet Lake Chipset drivers
+Downloading Comet Lake DPTF drivers
+Expanding Drivers
+Installing CML System Driver
+Microsoft PnP Utility
+
+Adding driver package:  CometLakePCH-LPSystem.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem63.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02B0&SUBSYS_02B08086&REV_F0\3&11583659&0&E8
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02E9&SUBSYS_02E98086&REV_00\3&11583659&0&A9
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02EF&SUBSYS_00000000&REV_00\3&11583659&0&A2
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02A3&SUBSYS_02A38086&REV_00\3&11583659&0&FC
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02AA&SUBSYS_02AA8086&REV_00\3&11583659&0&F2
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02E8&SUBSYS_02E88086&REV_00\3&11583659&0&A8
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_0284&SUBSYS_02848086&REV_00\3&11583659&0&F8
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02C5&SUBSYS_02C58086&REV_00\3&11583659&0&C8
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02A4&SUBSYS_02A48086&REV_00\3&11583659&0&FD
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02A8&SUBSYS_02A88086&REV_00\3&11583659&0&F0
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02AB&SUBSYS_02AB8086&REV_00\3&11583659&0&F3
+
+Total driver packages:  1
+Added driver packages:  0
+Installing CML System (Northpeak) Driver
+Microsoft PnP Utility
+
+Adding driver package:  CometLakePCH-LPSystemNorthpeak.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem64.inf
+
+Total driver packages:  1
+Added driver packages:  1
+Installing CML System (Thermal) Driver
+Microsoft PnP Utility
+
+Adding driver package:  CometLakePCH-LPSystemThermal.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem65.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02F9&SUBSYS_02F98086&REV_00\3&11583659&0&90
+
+Total driver packages:  1
+Added driver packages:  0
+Installing GPIO Driver
+Microsoft PnP Utility
+
+Adding driver package:  iaLPSS2_GPIO2_CNL.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem66.inf
+Driver package is up-to-date on device: ACPI\INT34BB\0
+
+Total driver packages:  1
+Added driver packages:  0
+Installing I2C Driver
+Microsoft PnP Utility
+
+Adding driver package:  iaLPSS2_I2C_CNL.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem67.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02E9&SUBSYS_02E98086&REV_00\3&11583659&0&A9
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02E8&SUBSYS_02E88086&REV_00\3&11583659&0&A8
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02C5&SUBSYS_02C58086&REV_00\3&11583659&0&C8
+
+Total driver packages:  1
+Added driver packages:  0
+Installing SPI Driver
+Microsoft PnP Utility
+
+Adding driver package:  iaLPSS2_SPI_CNL.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem68.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02AA&SUBSYS_02AA8086&REV_00\3&11583659&0&F2
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02AB&SUBSYS_02AB8086&REV_00\3&11583659&0&F3
+
+Total driver packages:  1
+Added driver packages:  0
+Installing UART Driver
+Microsoft PnP Utility
+
+Adding driver package:  iaLPSS2_UART2_CNL.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem69.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_02A8&SUBSYS_02A88086&REV_00\3&11583659&0&F0
+
+Total driver packages:  1
+Added driver packages:  0
+Installing DPTF ACPI Driver
+Microsoft PnP Utility
+
+Adding driver package:  dptf_acpi.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem60.inf
+Driver package is up-to-date on device: ACPI\INT3400\0
+Driver package is up-to-date on device: ACPI\INT3403\0
+Driver package is up-to-date on device: ACPI\INT3403\1
+Driver package is up-to-date on device: ACPI\INT3403\2
+
+Total driver packages:  1
+Added driver packages:  0
+Installing DPTF CPU Driver
+Microsoft PnP Utility
+
+Adding driver package:  dptf_cpu.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem61.inf
+Driver package is up-to-date on device: PCI\VEN_8086&DEV_1903&SUBSYS_19038086&REV_0C\3&11583659&0&20
+
+Total driver packages:  1
+Added driver packages:  0
+Done
+**********************
+Windows PowerShell transcript end
+End time: 20250625234307
+**********************

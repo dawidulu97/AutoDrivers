@@ -1,0 +1,75 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250625234230
+Username: DESKTOP-KCA2QFV\Owner
+RunAs User: DESKTOP-KCA2QFV\Owner
+Configuration Name: 
+Machine: DESKTOP-KCA2QFV (Microsoft Windows NT 10.0.21996.0)
+Host Application: powershell -ExecutionPolicy Bypass -NoExit -WindowStyle Hidden -Command Start-Transcript -Path 'C:\Drivers\Drivers\Logs\MainDrivers_20250625_234230.log'; . 'C:\Drivers\Drivers\main_drivers.ps1'; Stop-Transcript
+Process ID: 12608
+PSVersion: 5.1.21996.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.21996.1
+BuildVersion: 10.0.21996.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Drivers\Drivers\Logs\MainDrivers_20250625_234230.log
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INT34C8\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:45 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INT34C8\0" 2>$NULL){
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INT34C5\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:49 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INT34C5\0" 2>$NULL){
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1055\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:53 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1055\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1056\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:57 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1056\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1057\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:61 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1057\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1085\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:65 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1085\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
+Get-PnpDevice : No matching Win32_PnPEntity objects found by CIM query for instances of the ROOT\cimv2\Win32_PnPEntity 
+class on the  CIM server: SELECT * FROM Win32_PnPEntity  WHERE ((DeviceId LIKE 'ACPI\\INTC1083\\0')) AND ((Present = 
+TRUE)). Verify query parameters and retry.
+At C:\Drivers\Drivers\autoinstall-intel.ps1:69 char:5
++ If (Get-PnpDevice -PresentOnly -InstanceID "ACPI\INTC1083\0" 2>$NULL) ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Win32_PnPEntity:String) [Get-PnpDevice], CimJobException
+    + FullyQualifiedErrorId : CmdletizationQuery_NotFound,Get-PnpDevice
